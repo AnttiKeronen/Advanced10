@@ -1,9 +1,19 @@
+/** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
-  preset: 'ts-jest',
-  testEnvironment: 'jsdom',
-  setupFilesAfterEnv: ["./src/__test__/jest.setup.ts"],
+  testEnvironment: "jsdom",
+
+  setupFilesAfterEnv: ["/home/student/src/__test__/jest.setup.ts"],
+
+  transform: {
+    "^.+\\.tsx?$": "ts-jest",
+    "^.+\\.jsx?$": "ts-jest"
+  },
+
+  moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
 
   moduleNameMapper: {
-    '\\.css$': 'identity-obj-proxy'
-  }
+    "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+  },
+
+  transformIgnorePatterns: ["/node_modules/"]
 };
