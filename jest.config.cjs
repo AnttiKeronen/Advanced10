@@ -4,7 +4,7 @@ module.exports = {
   transform: {
     '^.+\\.tsx?$': ['ts-jest', { useESM: true, tsconfig: './tsconfig.app.json' }]
   },
-  setupFilesAfterEnv: ['<rootDir>/src/__test__/jest.setup.ts'],
+  setupFilesAfterEnv: ['<rootDir>/src/__test__/jest.setup.js'],
   moduleNameMapper: {
     '\\.(css|less|scss|sass)$': 'identity-obj-proxy'
   },
