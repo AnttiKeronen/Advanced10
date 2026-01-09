@@ -2,7 +2,7 @@
   "name": "week10",
   "version": "0.0.0",
   "scripts": {
-    "test": "jest --config jest.config.cjs --passWithNoTests"
+    "test": "jest --config jest.config.ts --passWithNoTests"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.0.0",
