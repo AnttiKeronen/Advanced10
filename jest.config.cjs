@@ -2,7 +2,7 @@
 module.exports = {
   testEnvironment: "jsdom",
 
-  setupFilesAfterEnv: ["/home/student/src/__test__/jest.setup.ts"],
+  setupFilesAfterEnv: ["/home/codegrade/student/src/__test__/jest.setup.ts"],
 
   transform: {
     "^.+\\.tsx?$": "ts-jest",
