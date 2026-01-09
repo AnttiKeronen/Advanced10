@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="5" failures="0" errors="0" time="2.519">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-01-09T13:26:43" time="0.975" tests="1">
-    <testcase classname=" About page uses useEffect" name=" About page uses useEffect" time="0.044">
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="2.516">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-01-09T13:34:51" time="0.946" tests="1">
+    <testcase classname=" About page uses useEffect" name=" About page uses useEffect" time="0.048">
     </testcase>
   </testsuite>
-  <testsuite name="App component routing" errors="0" failures="0" skipped="0" timestamp="2026-01-09T13:26:43" time="1.018" tests="2">
-    <testcase classname="App component routing Should render page header and HomePage on default route" name="App component routing Should render page header and HomePage on default route" time="0.065">
-    </testcase>
-    <testcase classname="App component routing Should render page header and AboutPage in /about route" name="App component routing Should render page header and AboutPage in /about route" time="0.01">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-01-09T13:34:51" time="0.992" tests="1">
+    <testcase classname=" renders grid-container and grid-items with h3 and p elements" name=" renders grid-container and grid-items with h3 and p elements" time="0.046">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-01-09T13:26:43" time="1.041" tests="1">
-    <testcase classname=" renders grid-container and grid-items with h3 and p elements" name=" renders grid-container and grid-items with h3 and p elements" time="0.063">
+  <testsuite name="App component routing" errors="0" failures="0" skipped="0" timestamp="2026-01-09T13:34:51" time="0.994" tests="2">
+    <testcase classname="App component routing Should render page header and HomePage on default route" name="App component routing Should render page header and HomePage on default route" time="0.066">
+    </testcase>
+    <testcase classname="App component routing Should render page header and AboutPage in /about route" name="App component routing Should render page header and AboutPage in /about route" time="0.006">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-01-09T13:26:43" time="1.116" tests="1">
-    <testcase classname=" increases visible items on button click" name=" increases visible items on button click" time="0.126">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-01-09T13:34:51" time="1.052" tests="1">
+    <testcase classname=" increases visible items on button click" name=" increases visible items on button click" time="0.108">
     </testcase>
   </testsuite>
 </testsuites>

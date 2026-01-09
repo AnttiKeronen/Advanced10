@@ -1,7 +1,7 @@
+// jest.config.cjs
 module.exports = {
   preset: 'ts-jest/presets/default-esm',
   testEnvironment: 'jsdom',
-  setupFilesAfterEnv: ['<rootDir>/src/__test__/jest.setup.ts'],
   transform: {
     '^.+\\.tsx?$': ['ts-jest', { useESM: true, tsconfig: './tsconfig.app.json' }]
   },
@@ -11,5 +11,6 @@ module.exports = {
   extensionsToTreatAsEsm: ['.ts', '.tsx'],
   reporters: ['default', 'jest-junit'],
   roots: ['<rootDir>/src/__test__'],
-  testTimeout: 10000
+  testTimeout: 10000,
+  setupFilesAfterEnv: ['<rootDir>/src/__test__/jest.setup.ts']
 };
