@@ -1,14 +1,16 @@
-import { useEffect, useState } from "react";
-import "../styles/About.css";
+import React, { useEffect, useState } from "react"; 
+import "../styles/About.css"; 
 
 interface Item {
   id: number;
   title: string;
   body: string;
 }
+
 function About() {
   const [data, setData] = useState<Item[]>([]);
   const [visible, setVisible] = useState(12);
+
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/posts")
       .then(res => res.json())
