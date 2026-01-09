@@ -1,19 +1,14 @@
-/** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
-  testEnvironment: "jsdom",
-
-  setupFilesAfterEnv: ["/home/codegrade/student/src/__test__/jest.setup.ts"],
-
+  preset: 'ts-jest/presets/js-with-ts', 
+  testEnvironment: 'jsdom',
+  roots: ['<rootDir>/src/__test__'],
   transform: {
-    "^.+\\.tsx?$": "ts-jest",
-    "^.+\\.jsx?$": "ts-jest"
+    '^.+\\.tsx?$': 'ts-jest'
   },
-
-  moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
-
   moduleNameMapper: {
-    "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    '\\.(css|less|scss|sass)$': 'identity-obj-proxy'
   },
-
-  transformIgnorePatterns: ["/node_modules/"]
+  setupFilesAfterEnv: ['<rootDir>/src/__test__/jest.setup.ts'],
+  testTimeout: 10000,
+  reporters: ['default', 'jest-junit']
 };
